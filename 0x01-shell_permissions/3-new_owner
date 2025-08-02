@@ -1,2 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+chown betty hello
+#!/usr/bin/env bash
+# Change owner of 'hello' to betty
 chown betty hello

@@ -1,2 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Switch to user betty
+exec su betty
+#!/usr/bin/env bash
+whoami
+#!/usr/bin/env bash
+# Print current effective username
 whoami

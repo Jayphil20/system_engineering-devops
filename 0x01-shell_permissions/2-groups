@@ -1,2 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+groups
+#!/usr/bin/env bash
+# Show groups of current user
 groups
