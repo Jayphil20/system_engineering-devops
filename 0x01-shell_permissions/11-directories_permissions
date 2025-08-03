@@ -1,10 +1,5 @@
 #!/bin/bash
-#!/bin/bash
+find . -maxdepth 1 -type d ! -name "." -exec chmod 755 {} \+
 
-for dir in *; do
-  if [ -d "$dir" ]; then
-    chmod 755 "$dir"
-  fi
-done
 
 
